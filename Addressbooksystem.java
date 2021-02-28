@@ -1,37 +1,5 @@
-public static class AddressBookSystem {
- public class Person {
-    static int id ;
-    private String name;
-    private String surname;
-    private String phoneNumber;
-    private String email;
-    private String address;
-    Person(String name, String surname, String phoneNumber, String email, String address) {
-        this.name = name;
-        this.surname = surname;
-        this.phoneNumber = phoneNumber;
-        this.email = email;
-        this.address = address;
-        id++;
-    }
-    String getName() {
-        return name;
-    }
-    String getSurname() {
-        return surname;
-    }
-    String getPhoneNumber() {
-        return phoneNumber;
-    }
-    String getEmail() {
-        return email;
-    }
-    String getAddress() {
-        return address;
-    }
-    public String toString() {
-        return "\n\nName: " + getName() + "\nSurname: " + getSurname() + 
-        "\nPhone number: " + getPhoneNumber() + 
-        "\nEmail: " + getEmail() + "\nAddress: " + getAddress();
-    }
+public class AddressBookSystem {
+     public static void main(String[] args){
+        System.out.println("Welcome to Address Book System");
+     }
 }
